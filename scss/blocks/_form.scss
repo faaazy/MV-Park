@@ -1,0 +1,20 @@
+.form {
+    display: flex;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.form-input {
+    flex-grow: 1;
+    font-family: $third-font;
+    padding: 15px 30px;
+}
+.form-btn {
+    font-family: $third-font;
+  padding: 15px 40px;
+  letter-spacing: 0.03em;
+
+  &:active {
+    transform: none;
+  }
+}

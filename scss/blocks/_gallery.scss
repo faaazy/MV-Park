@@ -1,0 +1,17 @@
+.gallery {
+  padding: 70px 0 100px;
+}
+.gallery__grid {
+  display: grid;
+  gap: 30px;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 337px;
+}
+.gallery__info-item__title {
+  margin-bottom: 25px;
+}
+.gallery__info-item__subtitle {
+  margin-bottom: 30px;
+  max-width: 440px;
+}

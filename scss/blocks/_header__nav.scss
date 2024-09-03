@@ -1,0 +1,29 @@
+.header {
+  padding: 35px 0;
+  background-image: url(./../img/header/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header__nav {
+  margin-bottom: 120px;
+}
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__list {
+  display: flex;
+  column-gap: 40px;
+}
+.nav-link {
+  color: $text-color;
+  transition: color 0.2s ease-in;
+}
+.nav-link:hover {
+  color: $accent;
+}
+.nav-link--active {
+  color: $accent;
+}

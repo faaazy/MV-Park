@@ -1,0 +1,30 @@
+.header-plate {
+  position: relative;
+  right: 35px;
+
+  max-width: 697px;
+  padding: 25px 50px;
+
+  backdrop-filter: blur(40px);
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.header-plate__row {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+.header-plate__item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-family: $second-font;
+  line-height: 1.6;
+
+  p {
+    font-weight: 400;
+  }
+}
+.header-plate__btn {
+  margin-left: 30px;
+}

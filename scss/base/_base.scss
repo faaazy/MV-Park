@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Gelasio:regular,500,600,700,italic,500italic,600italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $main-font;
+  color: $text-color;
+  font-size: 16px;
+  font-weight: 500;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.title-1 {
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 1.2;
+}
+.title-2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.title-3 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+.subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: $second-font;
+  line-height: 1.6;
+  opacity: 0.6;
+}
+.btn {
+  font-family: $second-font;
+  background-color: $accent;
+  border-radius: 5px;
+  padding: 15px 30px;
+  line-height: 1.5;
+  color: #fff;
+
+  transition: background-color 0.2s ease-in, transform 0.2s ease-in;
+}
+.btn:hover {
+  background-color: #1b75bb;
+}
+.btn:active {
+  transform: translateY(2px);
+}
